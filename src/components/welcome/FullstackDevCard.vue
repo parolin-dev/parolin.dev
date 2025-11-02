@@ -2,6 +2,7 @@
 import Globe from "./LightedGlobe.vue";
 import Laravel from "../../assets/technologies/laravel.svg";
 import VueJS from "../../assets/technologies/vuejs.svg";
+import SpringBoot from "../../assets/technologies/spring_boot.svg";
 import Tailwind from "../../assets/technologies/tailwind.svg";
 </script>
 
@@ -27,7 +28,9 @@ import Tailwind from "../../assets/technologies/tailwind.svg";
         class="absolute bottom-1 z-20 flex items-center gap-1 font-mono text-xs tracking-tight text-white/60 uppercase"
       >
         <img :src="Laravel" class="mb-1 h-3 grayscale" aria-hidden="true" />
-        Laravel <span aria-hidden="true">+</span>
+        Laravel <span aria-hidden="true">/</span>
+        <img :src="SpringBoot" class="mb-1 h-3 grayscale" aria-hidden="true" />
+        Spring Boot <span aria-hidden="true">+</span>
         <img :src="VueJS" class="mb-1 h-3 grayscale" aria-hidden="true" />
         Vue.js <span aria-hidden="true">+</span>
         <img :src="Tailwind" class="mb-1 h-4 grayscale" aria-hidden="true" />
