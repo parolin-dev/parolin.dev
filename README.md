@@ -13,7 +13,7 @@ Parolin.dev is my personal website showcasing my work, built with Vue.js and sty
 - Clone this repository
 
   ```bash
-  git clone https://github.com/Paroleen/parolin.dev.git
+  git clone https://github.com/parolin-dev/parolin.dev.git
   cd parolin.dev
   ```
 
@@ -31,4 +31,4 @@ Parolin.dev is my personal website showcasing my work, built with Vue.js and sty
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/Paroleen/parolin.dev/blob/main/LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/parolin-dev/parolin.dev/blob/main/LICENSE) file for details.

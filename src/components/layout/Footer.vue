@@ -15,7 +15,7 @@ import GitHubButton from "../common/GitHubButton.vue";
         <span>VAT Number: IT04344770245</span>
         <span class="hidden md:block" aria-hidden="true">|</span>
         <a
-          href="https://github.com/Paroleen/parolin.dev"
+          href="https://github.com/parolin-dev/parolin.dev"
           class="flex items-start gap-0.5 font-medium text-white"
         >
           Built with Vue.js

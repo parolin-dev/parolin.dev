@@ -4,7 +4,7 @@ import GitHubIcon from "../icons/GitHubIcon.vue";
 </script>
 
 <template>
-  <SocialButton to="https://github.com/Paroleen" title="GitHub">
+  <SocialButton to="https://github.com/parolin-dev" title="GitHub">
     <GitHubIcon class="h-4 w-4 fill-white" />
   </SocialButton>
 </template>
