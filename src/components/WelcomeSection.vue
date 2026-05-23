@@ -15,7 +15,7 @@ import MobileDevCard from "./welcome/MobileDevCard.vue";
         Matteo Parolin
       </h1>
       <p class="text-center text-sm font-medium tracking-tight text-white/75">
-        Freelance software engineer
+        Freelance web app developer
       </p>
 
       <div class="mt-2 flex gap-2">

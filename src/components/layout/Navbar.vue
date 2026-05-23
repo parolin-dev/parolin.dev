@@ -17,7 +17,7 @@ import GitHubButton from "../common/GitHubButton.vue";
 
       <div class="flex flex-col text-white">
         <h1 class="text-sm font-medium tracking-tight">Matteo Parolin</h1>
-        <h2 class="text-xs font-light">Freelance software engineer</h2>
+        <h2 class="text-xs font-light">Freelance web app developer</h2>
       </div>
     </div>
 
