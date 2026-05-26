@@ -2,16 +2,15 @@
 import Globe from "./LightedGlobe.vue";
 import Laravel from "../../assets/technologies/laravel.svg";
 import VueJS from "../../assets/technologies/vuejs.svg";
-import SpringBoot from "../../assets/technologies/spring_boot.svg";
 import Tailwind from "../../assets/technologies/tailwind.svg";
 </script>
 
 <template>
   <div
-    class="flex h-full w-full flex-col gap-4 overflow-hidden text-white lg:h-80 lg:justify-between lg:gap-0"
+    class="flex max-w-[50em] flex-col items-center justify-center gap-8 md:flex-row md:px-8"
   >
-    <div class="w-full">
-      <h2 class="text-center font-medium">Full-stack web development</h2>
+    <div class="text-white">
+      <h2 class="text-center font-medium">Web app development</h2>
       <p class="text-center text-sm text-white/75">
         Web development services delivering unique front-end experiences
         combined with robust back-end architecture, all tailored to boost user
@@ -19,7 +18,7 @@ import Tailwind from "../../assets/technologies/tailwind.svg";
       </p>
     </div>
 
-    <div class="relative flex h-52 w-full justify-center">
+    <div class="relative flex h-52 w-full justify-center overflow-hidden">
       <div class="absolute -bottom-18 flex w-full justify-center">
         <Globe class="h-70 rotate-12" aria-hidden="true" />
       </div>
@@ -28,9 +27,7 @@ import Tailwind from "../../assets/technologies/tailwind.svg";
         class="absolute bottom-1 z-20 flex items-center gap-1 font-mono text-xs tracking-tight text-white/60 uppercase"
       >
         <img :src="Laravel" class="mb-1 h-3 grayscale" aria-hidden="true" />
-        Laravel <span aria-hidden="true">/</span>
-        <img :src="SpringBoot" class="mb-1 h-3 grayscale" aria-hidden="true" />
-        Spring Boot <span aria-hidden="true">+</span>
+        Laravel <span aria-hidden="true">+</span>
         <img :src="VueJS" class="mb-1 h-3 grayscale" aria-hidden="true" />
         Vue.js <span aria-hidden="true">+</span>
         <img :src="Tailwind" class="mb-1 h-4 grayscale" aria-hidden="true" />
